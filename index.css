@@ -1,0 +1,353 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Radio+Canada:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Radio+Canada:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@600&display=swap');
+*, 
+*:before, 
+*:after {
+  padding: 0; 
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+/* curve part */
+.custom-shape-divider-bottom-1651479188 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1651479188 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 166px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1651479188 .shape-fill {
+  fill: #FFFFFF;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* le header */
+/* title */
+header {
+  width: 100%; 
+  height: 550px; 
+  background-image: url("./ressources/bgimg.png");
+  min-height: 50vh;
+  position: relative;
+}
+div.gdiv {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+}
+p.deli {
+  color: black;
+  font-size: 30px;
+  font-family: 'Radio Canada', sans-serif;
+  font-weight: normal;
+  margin-right: 5px;
+  margin-left: 40px;
+}
+p.bouff {
+  color: #B94CFE ;
+  font-size: 30px;
+  font-family: 'Radio Canada', sans-serif;
+  font-weight: normal;
+}
+
+/* button */
+
+div.buttonsdiv {
+  width: 140vh;
+  height: 100px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+button.Home {
+  width:60px;
+  height: 40px;
+  font-size: 12px;
+  margin-right: 30px;
+  border:none;
+  border-radius: 5px;
+  color: white;
+  background-color: #B94CFE;
+  outline: none;
+  box-shadow: inset 0 0 0 0 #73389e;
+  transition: ease-out 0.4s; 
+  animation: fadeIn 2s;
+}
+button.Home:hover {
+  box-shadow: inset 100px 0 0 0 #73389e;
+}
+button.aboutus {
+  width:60px;
+  height: 40px;
+  font-size: 12px;
+  margin-right: 30px;
+  border:none;
+  border-radius: 5px;
+  color: white;
+  background-color: #B94CFE;
+  outline: none;
+  box-shadow: inset 0 0 0 0 #73389e;
+  transition: ease-out 0.4s; 
+  animation: fadeIn 2.5s;
+}
+button.aboutus:hover {
+  box-shadow: inset 100px 0 0 0 #73389e;
+}
+button.getstarted {
+  width:60px;
+  height: 40px;
+  font-size: 10px;
+  border:none;
+  border-radius: 5px;
+  color: white;
+  background-color: #B94CFE;
+  outline: none;
+  box-shadow: inset 0 0 0 0 #73389e;
+  transition: ease-out 0.4s; 
+  animation: fadeIn 3s;
+}
+button.getstarted:hover {
+  box-shadow: inset 100px 0 0 0 #73389e;
+}
+p.pbutton {
+  margin-top: 6px;
+}
+
+img.question {
+  width: 40px;
+  height: 40px;
+  margin-top: 25px;
+  margin-left: 180px;
+  margin-right: 15px  ;
+  animation: fadeIn 4.5s;
+}
+
+/* contenu du header */
+div.contenuH {
+  width: 580px; 
+  height: 250px; 
+  margin-left: 40px;
+  animation: fadeIn 1.5s;
+  
+}
+p.titleH {
+  color: white;
+  font-size: xx-large; 
+  font-family: 'Radio Canada', sans-serif;
+}
+p.paragrapheH {
+  color: white; 
+  font-family: 'Montserrat', sans-serif;
+  line-height: 1.6;
+}
+
+div.globalmain {
+  display: flex; 
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: auto;
+  width: 60%;
+  height: 25vh;
+  border-bottom: 1px solid grey;
+}
+div.textmain {
+  display: flex; 
+  flex-direction: row; 
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+span.boule {
+  height: 60px;
+  width: 60px;
+  background: linear-gradient(#B94CFE, #73389e); 
+  border-radius: 50%; 
+}
+img.b1 {
+  margin-left: 15px;
+  margin-top: 12px;
+  width: 30px;
+  height: 30px; 
+}
+
+div.textB {
+  position: relative; 
+  right: 60px;
+  width: 180px;
+  height: 80px;
+  margin-top: 15px;
+}
+
+p.titleb {
+  position: relative;
+  color: #515151;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  white-space: nowrap;
+  margin-top: 5px;
+  margin: auto;
+  width: 50%;
+}
+p.titleb:after {
+  content: "";
+  position: absolute;
+  height: 3px;
+  background-color: #73389e;
+  width: 0;  
+  left: 0;  
+  bottom: -3px;
+  transition: ease-out 0.2s;
+}
+p.titleb:hover {
+  color: black;
+}
+p.titleb:hover:after {
+  width: 100%;
+}
+p.descb {
+  color: #7F7F7F;
+  font-weight: normal;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 7px;
+  font-size: 12px;
+}
+
+/*main content image text*/
+div.imgtextdivref {
+  display: flex;
+  flex-wrap: nowrap;
+  border-bottom: 1px solid grey;
+  width: 600px;
+  margin: auto;
+  margin-top: 120px;
+}
+div.imgtextdiv {
+  display: flex;
+  flex-wrap: nowrap;
+  border-bottom: 1px solid grey;
+  width: 600px;
+  margin: auto;
+}
+img.imgcontent {
+  z-index: 1; 
+  width: 298px;
+  height: 240px;
+}
+img.imgcontent3 { 
+  height: 298px;
+}
+p.pcontentitle {
+  position: relative;
+  top: 20px;
+  margin: auto;
+  font-family: 'Noto Sans', sans-serif; 
+  color: #515151;
+  font-size: 22px;
+  white-space: nowrap;
+}
+p.pcontent {  
+  color: #7F7F7F;
+  font-weight: normal;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  margin-top: 8vh; 
+  margin-left: 5px; 
+  line-height: 30px;
+}
+p.pcontentitle:after {
+  content: "";
+  position: absolute;
+  height: 3px;
+  background-color: #73389e;
+  width: 0;  
+  left: 0;  
+  bottom: -3px;
+  transition: ease-out 0.2s;
+}
+p.pcontentitle:hover {
+  color: black;
+}
+p.pcontentitle:hover:after {
+  width: 35%;
+} 
+
+
+/* footer vw vh */
+
+footer {
+  background: #360058;
+  margin-top: 100px;
+  width: 100vw;
+  font-family: 'Montserrat', sans-serif; 
+  color: #fff;
+  padding-top: 20px;
+}
+div.footerC {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+h3.footertitle {
+  font-size: 25px;
+}
+ul.footereseaux {
+  display: flex;
+  justify-content: center;
+  justify-content: center;
+  list-style: none;
+}
+ul.footereseaux li{
+  margin: 0 10px;
+  margin-left: 20px;
+}
+ul.footereseaux a {
+  transition: color 0.3s ease-in;
+}
+ul.footereseaux a:hover {
+  color: #360058;
+}
+img.ficons {
+  width: 45px;
+  height: 45px;
+}
+div.enbasla {
+  margin: 15px;
+}
+
+  
+
