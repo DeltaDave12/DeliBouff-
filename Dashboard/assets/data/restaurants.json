@@ -1,0 +1,149 @@
+[
+  {
+    "id": "1",
+    "name": "Taj Mahall",
+    "deliveryFee": 1.99,
+    "minDeliveryTime": 25,
+    "maxDeliveryTime": 35,
+    "rating": 4.2,
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Taj_Mahal_%28Edited%29.jpeg/260px-Taj_Mahal_%28Edited%29.jpeg",
+    "dishes": [
+      {
+        "name": "Le Kevin indien",
+        "description": "6 confiseries en forme de Satoshi",
+        "price": 19.00,
+        "image": "https://www.lagrandeepicerie.com/dw/image/v2/BBWG_PRD/on/demandware.static/-/Library-Sites-LGEsharedLibrary/default/dw981f8297/Inspirations/Tendances/confiseries/confiseries-1500-compressed.jpg?sw=768&sfrm=jpg"
+      },
+      {
+        "name": "Roll's Indien",
+        "description": "Pâte de farine avec du poulet, du boeuf accompgnés de pommes de terre.",
+        "price": 8.9,
+        "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant3.jpeg"
+      },
+      {
+        "name": "Samousa Végé",
+        "description": "Pâte de farine avec des pomme de terre  accompagnés de petits pois.",
+        "price": 5.4
+      },
+      {
+        "name": "Végindien",
+        "description": "Assortiments de légumes frais",
+        "price": 5.9
+      },
+      {
+        "name": "Biryani",
+        "description": "Riz mélangé de différents épices avec une sauce multicouleurs",
+        "price": 7.9
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Le Bon Cochon - Poporc",
+    "deliveryFee": 3.99,
+    "minDeliveryTime": 25,
+    "maxDeliveryTime": 35,
+    "rating": 4.7,
+    "image": "https://static.pourdebon.com/images/1200-630/31d6ca912cee72866169e1c31d251817/saucisson%20sec%20pur%20porc.jpeg",
+    "dishes": [
+      {
+        "name": "Cajun Ribs",
+        "description": "For lovers of a spicy touch. Ribs bathed in our Original sauce accompanied by Cajun spices. Served with French fries and coleslaw.",
+        "price": 18.95
+      },
+      {
+        "name": "The Original Baby Backs",
+        "description": "The house specialty. Pork ribs cooked on the barbecue and marinated with our original barbecue sauce. Served with French fries and coleslaw.",
+        "price": 19.95
+      },
+      {
+        "name": "Carolina Honey",
+        "description": "Our famous ribs marinated with our Carolina honey sauce, a mixture of honey with our original sauce. Ideal for those looking for a sweet touch. Served with French fries and coleslaw.",
+        "price": 18.95,
+        "image": "https://notjustdev-dummy.s3.us-east-2.amazonaws.com/uber-eats/restaurant2.jpeg"
+      },
+      {
+        "name": "Onion Rings",
+        "description": "Los tradicionales aros de cebolla de tony roma´s dorados, crujientes y ligeros. Únicos en el mundo, acompañados de salsa BBQ.",
+        "price": 6.95
+      },
+      {
+        "name": "Nachos Tony Roma's",
+        "description": "The best selling nachos! with our blend of melted cheeses, accompanied by guacamole, crispy bacon, ranch beans, and sour cream.",
+        "price": 10.95
+      }
+    ]
+  },
+  {
+    "id": "3",
+    "name": "Porc Burger",
+    "deliveryFee": 0.99,
+    "minDeliveryTime": 20,
+    "maxDeliveryTime": 30,
+    "rating": 4.3,
+    "image": "https://www.club-sandwich.net/images/photorecettes/burger-porc-chou-123rf.jpg",
+    "dishes": [
+      {
+        "name": "Burger Mustang",
+        "description": "Homemade bread, burger sauce, lettuce, sweet and sour pickle, bacon, cheddar and BBQ sauce. Beef 180 grams.",
+        "price": 5.9
+      },
+      {
+        "name": "Alabama bread",
+        "description": "Artisan bread, butter sauce, garlic, BBQ chicken and cheddar.",
+        "price": 3.0
+      },
+      {
+        "name": "New York Burger",
+        "description": "Homemade bread, lettuce, burger sauce, 180 grams of beef, goat cheese and roasted apple.",
+        "price": 5.9
+      },
+      {
+        "name": "Mac & Cheese Burger",
+        "description": "Homemade bread, lettuce, burger sauce, 180 grams of beef, mac and cheese, and American-style bacon.",
+        "price": 5.9
+      },
+      {
+        "name": "Nachos Brothers",
+        "description": "Nachos, guacamole, cheddar sauce, beans, bacon, and cream cheese.",
+        "price": 5.2
+      }
+    ]
+  },
+  {
+    "id": "4",
+    "name": "Le restaurant de Dora",
+    "deliveryFee": 0.9,
+    "minDeliveryTime": 30,
+    "maxDeliveryTime": 40,
+    "rating": 5.0,
+    "image": "https://image.jeuxvideo.com/images-md/ds/d/o/dora-cuisine-nintendo-ds-00a.jpg",
+    "dishes": [
+      {
+        "name": "English burger",
+        "description": "Beef with bacon, portobello mushrooms, tomato, cheddar cheese, grilled egg and our smoked sauce.",
+        "price": 14.9
+      },
+      {
+        "name": "Mexican Burger",
+        "description": "Beef, with pico de gallo, veggie chili, cheddar cheese, guacamole and smoked sauce.",
+        "price": 14.9
+      },
+      {
+        "name": "Tequeños",
+        "description": "Crispy sticks filled with melted cheese accompanied by tomato chutney.",
+        "price": 9.9
+      },
+      {
+        "name": "Starters Combo",
+        "description": "Tequeños, crispy onion and chicken delicacies.",
+        "price": 13.9
+      },
+      {
+        "name": "Cesar Salad",
+        "description": "Green sprouts, pieces of grilled bacon, chicken delicacies, grated Parmesan, muffin croutons and fried onion confetti dressed with Caesar sauce.",
+        "price": 10.5
+      }
+    ]
+  }
+]
